@@ -1,0 +1,39 @@
+.ProductsAdm {
+  height: 100%;
+  background-color: white;
+  flex: 0.8;
+  overflow-y: scroll;
+}
+.ProductsAdm::-webkit-scrollbar {
+  display: none;
+}
+.ProductsAdm {
+  -ms-overflow-style: none; /*IE and edge*/
+  scrollbar-width: none; /*Firefox*/
+}
+
+.headerProductadm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  padding-left: 30px;
+  margin: 0 60px;
+}
+.headerProductadm > img {
+  height: 50px;
+  width: 50px;
+  opacity: 0;
+}
+.products__infoAdm > p {
+  text-align: center;
+  width: 70px;
+  word-wrap: break-word;
+  justify-content: center;
+}
+.products__infoAdm {
+  padding: 5px 0;
+  border-bottom: 1px solid sandybrown;
+  border-right-width: 5px;
+  justify-content: center;
+}

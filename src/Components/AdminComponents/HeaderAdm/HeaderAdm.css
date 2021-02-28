@@ -1,0 +1,15 @@
+.headerAdm {
+  display: flex;
+  height: 60px;
+  background-color: white;
+  position: sticky;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  justify-content: space-between;
+}
+.headerAdm > a {
+  color: #131921;
+  margin-left: 30px;
+  margin-right: 30px;
+  cursor: pointer;
+}

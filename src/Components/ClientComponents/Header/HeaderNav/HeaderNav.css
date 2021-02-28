@@ -1,0 +1,41 @@
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+.header__optionLineOne {
+  font-size: 15px;
+}
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800px;
+}
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1px;
+  margin-right: 1px;
+  padding: 9px 9px;
+  color: white;
+  border: 1px solid transparent;
+}
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 15px 10px;
+  border: 1px solid transparent;
+  margin-right: 4px;
+}
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header__option:hover {
+  border: 1px solid white;
+  border-radius: 3px;
+}
+.header__optionBasket:hover {
+  border: 1px solid white;
+  border-radius: 3px;
+}

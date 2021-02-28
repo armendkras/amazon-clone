@@ -1,0 +1,24 @@
+.product__infoAdm {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 0;
+}
+.product__infoAdm > img {
+  height: 50px;
+  width: 50px;
+}
+.product__infoAdm > p {
+  width: 70px;
+  word-wrap: break-word;
+}
+.productAdm {
+  border-bottom: 1px solid lightgray;
+  margin: 25px;
+}
+.delete {
+  cursor: pointer;
+}
+.delete:hover {
+  color: red;
+}

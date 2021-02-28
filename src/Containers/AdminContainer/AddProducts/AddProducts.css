@@ -1,0 +1,40 @@
+.addProduct {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  flex: 0.8;
+  box-sizing: border-box;
+}
+.forma {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.forma > form {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid lightgray;
+  padding: 30px;
+}
+.Couple > input {
+  padding: 5px 50px;
+  margin: 5px 0;
+  background-color: #ff990062;
+  border: 1px solid #ff9900;
+}
+.addButton {
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  cursor: pointer;
+  border-color: #a88734 #9c7e31 #846a29;
+}

@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }
 
 .App-logo {
@@ -26,6 +31,16 @@
 
 .App-link {
   color: #61dafb;
+}
+.homeadmini {
+  background-color: red;
+  height: 100vh;
+}
+.MainAdm__panel {
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  box-sizing: border-box;
 }
 
 @keyframes App-logo-spin {

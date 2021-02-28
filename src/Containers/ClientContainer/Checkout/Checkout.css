@@ -1,0 +1,28 @@
+.checkout {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  height: 100vh;
+
+  justify-content: space-between;
+}
+.checkout__left {
+  height: 100vh;
+  overflow-y: scroll;
+}
+.checkout__left::-webkit-scrollbar {
+  display: none;
+}
+.checkout__left {
+  -ms-overflow-style: none; /*IE and edge*/
+  scrollbar-width: none; /*Firefox*/
+}
+.checkout__ad {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.checkout__title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
